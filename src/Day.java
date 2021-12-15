@@ -1,16 +1,22 @@
 public class Day {
 
-    private double timeWakeUp;
-    private double timeBreakfast;
-    private double timeSecondBreakfast;
-    private double timeSupper;
-    private double timeLunch;
-    private double timeDinner;
-    private double timeSecondDinner;
-    private double timeSleepDown;
+    private double wakeUp;
+    private double breakfast;
+    private double secondBreakfast;
+    private double supper;
+    private double lunch;
+    private double dinner;
+    private double secondDinner;
+    private double sleepDown;
+    /* add year, month, date, significantEvent, moonDay, exercisesWithLocks, exercisesForNeck, handstand,
+    keyboardSimulator, exercisesForEyes, iTLearning, morningYoga, iTEnglish, petProject, juggling, eveningYoga,
+    checkList10, healthNotes, commentForDay, pedometerReadings, geolocation, photo&video, contactsDuringDay,
+    daysQRCode, */
 
 
-    public Day(double timeWakeUp, double timeBreakfast, double timeSecondBreakfast, double timeSupper, double timeLunch, double timeDinner, double timeSecondDinner, double timeSleepDown) {
+    public Day(double timeWakeUp, double timeBreakfast, double timeSecondBreakfast, double timeSupper, double timeLunch,
+               double timeDinner, double timeSecondDinner, double timeSleepDown) {
+
         this.timeWakeUp = timeWakeUp;
         this.timeBreakfast = timeBreakfast;
         this.timeSecondBreakfast = timeSecondBreakfast;
